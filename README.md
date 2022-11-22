@@ -16,16 +16,16 @@ Demo details
 * Start the server. 
 * Build an update in the update directory while the server is running.
 * Apply an update by: 
-** killing the server by running CLI from the installation directory
-** running prospero from the update directory to apply the update to the installation 
-** restarting the server from the installation directory
-** deleting the update directory
+   * killing the server by running CLI from the installation directory
+   * running prospero from the update directory to apply the update to the installation 
+   * restarting the server from the installation directory
+   * deleting the update directory
 
 Run demo
 =======
 
 * sh ./do-setup.sh
-* <prospero project dir>/prospero install --dir=foo --definition=./provisioning.xml --provision-config=./prospero-conf.yaml
+* [prospero project dir]/prospero install --dir=foo --definition=./provisioning.xml --provision-config=./prospero-conf.yaml
 * sh ./do-changes.sh
 * sh ./foo/bin/standalone.sh &
 * sh ./foo/bin/prospero.sh build-update --dir=foo --target-dir=update-foo
