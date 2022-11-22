@@ -1,0 +1,27 @@
+---
+schemaVersion: "2.0.0"
+repositories:
+- id: central
+  url: https://repo1.maven.org/maven2/
+- id: jboss-public
+  url: https://repository.jboss.org/nexus/content/groups/public/
+manifest:
+  url: "file:/home/jdenise/workspaces/prospero-update-demo/wildfly-ee-manifest.yaml"
+---
+schemaVersion: "2.0.0"
+repositories:
+- id: central
+  url: https://repo1.maven.org/maven2/
+- id: jboss-public
+  url: https://repository.jboss.org/nexus/content/groups/public/
+manifest:
+  url: "file:///home/jdenise/workspaces/prospero-update-demo/wildfly-manifest.yaml"
+---
+schemaVersion: "2.0.0"
+repositories:
+- id: central
+  url: https://repo1.maven.org/maven2/
+- id: jboss-public
+  url: https://repository.jboss.org/nexus/content/groups/public/
+manifest:
+  url: "file:///home/jdenise/workspaces/prospero-update-demo/prospero-manifest.yaml"
